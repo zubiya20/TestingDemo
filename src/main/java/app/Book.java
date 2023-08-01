@@ -1,12 +1,19 @@
 package app;
 
 public class Book {
+	private int isbn;
 	private String title;
 	private String category;
 	public Book(String title, String category) {
 		super();
 		this.title = title;
 		this.category = category;
+	}
+	public int getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(int isbn) {
+		this.isbn = isbn;
 	}
 	public String getTitle() {
 		return title;
