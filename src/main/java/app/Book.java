@@ -1,7 +1,5 @@
 package app;
 
-import java.util.Objects;
-
 public class Book {
 	private int isbn;
 	private String title;
@@ -32,24 +30,6 @@ public class Book {
 	public String toString() {
 		return "Book [title=" + title + ", category=" + category + "]";
 	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(category, isbn, title);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Book other = (Book) obj;
-		return Objects.equals(category, other.category) && isbn == other.isbn && Objects.equals(title, other.title);
-	}
-	
 	
 	
 }
