@@ -1,7 +1,7 @@
 package app;
 
 public class Book {
-	
+	private int isbn;
 	private String title;
 	private String category;
 	public Book(String title, String category) {
@@ -10,6 +10,10 @@ public class Book {
 		this.category = category;
 	}
 	
+	public int getIsbn()
+	{
+		return isbn;
+	}
 	public String getTitle() {
 		return title;
 	}
