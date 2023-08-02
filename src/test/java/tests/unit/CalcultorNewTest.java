@@ -11,4 +11,8 @@ public class CalcultorNewTest {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	public void test1() {
+		fail("Not yet implemented");
+	}
 }
