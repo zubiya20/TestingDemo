@@ -10,5 +10,11 @@ public class CalcultorNewTest {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("New Test");
+	}
 
 }
