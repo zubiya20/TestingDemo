@@ -12,8 +12,9 @@ public class CalcultorNewTest {
 	}
 	
 	@Test
-	public void test2() {
-		System.out.println("New Test");;
+	public void test1()
+	{
+		System.out.println("New Test");
 	}
 
 }
